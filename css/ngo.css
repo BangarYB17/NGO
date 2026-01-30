@@ -5,6 +5,7 @@
 .navbar .nav-link:hover{
     color:rgb(245, 245, 248);
     font-size: 18px;
+    /* text-decoration: underline; */
 }
 
 .icon_size a{
@@ -41,4 +42,8 @@
     border:none !important;
     transform: translateY(-4px);
 }
+.slider-img{
+   height: 500px;
+   object-fit: auto;
+} 
 
