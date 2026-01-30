@@ -1,6 +1,8 @@
-.txt{
-    color:white;
+
+.bg-orange{
+    background-color: #69bf8d;
 }
-.a_shadow{
-    box-shadow: 7px 7px 7px rgba(138, 126, 126, 0.1);
+.navbar .nav-link:hover{
+    color:rgb(245, 245, 248);
+    font-size: 18px;
 }
