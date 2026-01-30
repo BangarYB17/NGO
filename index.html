@@ -7,9 +7,7 @@
     <title>Home</title>
     <link rel="stylesheet" href="css/ngo.css">
     <link rel="icon" type="image/png" sizes="32x32" href="images/logo.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-     integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
-     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
@@ -18,7 +16,7 @@
     <!-- Header Section Start -->
     <header>
         <section>
-            <nav class="navbar navbar-expand-md bg-orange" data-bs-theme="light"  >
+            <nav class="navbar navbar-expand-md bg-orange" data-bs-theme="light">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         <img src="/images/logo.png" alt="Logo" width="30" height="24"
@@ -34,13 +32,14 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item ">
-                                <a class="nav-link active bg-warning  shadow text-dark rounded" aria-current="page"  href="index.html">Home</a>
+                                <a class="nav-link active  bg-warning  shadow text-dark rounded" aria-current="page"
+                                    href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="about.html">About Us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link hover"  href="programs.html">Programs</a>
+                                <a class="nav-link hover" href="programs.html">Programs</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="impacts.html">Impacts</a>
@@ -55,16 +54,19 @@
                                 </a>
                                 <ul class="dropdown-menu bg-warning border border-white">
                                     <li><a class="dropdown-item text-dark" href="events.html">Events</a></li>
-                                    <li><a class="dropdown-item text-dark border-top border-white" href="stories.html">Stories</a></li>
+                                    <li><a class="dropdown-item text-dark border-top border-white"
+                                            href="stories.html">Stories</a></li>
                                 </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="donate.html">Donate</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="contact.html">Contact Us</a>
                             </li>
                         </ul>
+
+                        <button type="button" class="btn btn_shadow me-4 btn-warning" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Donate
+                        </button>
                     </div>
                 </div>
             </nav>
@@ -91,23 +93,16 @@
                         <a class="navbar-brand" href="#">
                             <img src="/images/logo.png" alt="Logo" width="30" height="34"
                                 class="d-inline-block align-text-top img-fluid">
-                        Sahyog Foundation
+                            Sahyog Foundation
                         </a>
 
                         <p class="lh-lg">
-                            Sahyog Foundation works for community support, education, health, and social welfare, aiming
-                            to create positive change through collective effort.
+                            Sahyog Foundation is a non-profit organization working towards community development through
+                            education, healthcare support, and social welfare initiatives. We believe in collective
+                            action to create lasting and meaningful change in society.
                         </p>
                         <!-- <div class="col-md-12 fs-3"> -->
-                        <h6>Follow Us On:</h6>
-                        <div class="fs-5">
-                          <a><i class="fa-brands fa-instagram"></i></a>
-                          <i class="fa-brands fa-whatsapp"></i>
-                          <i class="fa-brands fa-x-twitter"></i>
-                          <i class="fa-brands fa-facebook"></i>
-                          <i class="fa-brands fa-youtube"></i>
-                        <!-- </div> -->
-                    </div>
+
 
                     </div>
                     <div class="col-md-3">
@@ -137,25 +132,36 @@
                     </div>
                     <div class="col-md-3 text-dark">
                         <h6>Contact Us</h6>
-                        <p>&#128205;Sahyog Foundation (Socio-Cultural-Educational Organisation)</p>
-                        <p>Address:<br>2, Bhagat C.H.S., Plot No. 417/B, 14th Road,
+                        <p>Sahyog Foundation (Socio-Cultural-Educational Organisation)</p>
+                        <p><i class="bi bi-pin-map-fill text-danger"></i> Address:<br>2, Bhagat C.H.S., Plot No. 417/B,
+                            14th Road,
                             Bandra (W), Mumbai - 400050, India</p>
-                        <p>Email : &#128386;Sahyogfoundation@NGO.com</p>
-                        <p>Call:&#128222;+91-22-2600 8629</p>
+                        <p><i class="bi bi-envelope-fill text-danger"></i> Email : Sahyogfoundation@NGO.com</p>
+                        <p><i class="bi bi-telephone-outbound-fill text-danger"></i> Call:+91-22-2600 8629</p>
+
+                        <p>Follow Us On:
+                        <p>
+                        <div class="icon_size">
+                            <a><i class="bi bi-instagram "></i></a>
+                            <a><i class="bi bi-facebook"></i></a>
+                            <a><i class="bi bi-twitter-x"></i></a>
+                            <a><i class="bi bi-youtube"></i></a>
+                            <a><i class="bi bi-whatsapp"></i></a>
+                        </div>
                     </div>
 
-                    
+
                 </div>
             </div>
         </section>
         <!-- Quick Links End -->
 
         <!-- Copyright Section Start -->
-         <section>
+        <section>
             <div class="container-fluid text-center pt-1 pb-1 bg-orange border-top border-dark text-dark">
                 <p>&#169;2026 Sahyog Foundation | All Rights Reserved</p>
             </div>
-         </section>
+        </section>
         <!-- Copyright Section Start -->
 
     </footer>

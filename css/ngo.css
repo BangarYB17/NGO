@@ -6,3 +6,39 @@
     color:rgb(245, 245, 248);
     font-size: 18px;
 }
+
+.icon_size a{
+    font-size: 30px;
+    margin-left: 20px;
+}
+.bi-instagram:hover{
+    color:red;
+    text-shadow: 7px 7px 7px rgb(4, 0, 0);
+}
+.bi-facebook:hover{
+    color:rgb(25, 0, 255);
+    text-shadow: 7px 7px 7px rgb(4, 0, 0);
+}
+.bi-twitter-x:hover{
+    color:rgb(1, 0, 4);
+    text-shadow: 7px 7px 7px rgb(17, 10, 10);
+}
+
+.bi-youtube:hover{
+    color:rgb(228, 28, 14);
+    text-shadow: 7px 7px 7px rgb(4, 0, 0);
+}
+.bi-whatsapp:hover{
+    color:rgb(17, 241, 36);
+    text-shadow: 7px 7px 7px rgb(4, 0, 0);
+}
+
+.btn_shadow{
+    box-shadow:7px 7px 15px rgb(25, 25, 25);
+}
+.btn:hover{
+    background-color: rgb(252, 255, 251) !important;
+    border:none !important;
+    transform: translateY(-4px);
+}
+
