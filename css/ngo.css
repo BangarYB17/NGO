@@ -1,4 +1,7 @@
-
+body,html{
+    width:100%;
+    overflow-x: hidden;
+}
 .bg-orange{
     background-color: #69bf8d;
 }
@@ -47,3 +50,13 @@
    object-fit: auto;
 } 
 
+.ngo-bg {
+  background-color: #e4d8d0;
+}
+.about_shadow{
+    box-shadow: 9px 9px 11px rgb(80, 77, 77);
+}
+.about_shadow:hover{
+    transform: translateY(-10px);
+    transform: scale(1.12);
+}
