@@ -60,3 +60,8 @@ body,html{
     transform: translateY(-10px);
     transform: scale(1.12);
 }
+/* Story pages */
+.back-video{
+    width: 100%;
+    height: auto;
+}
