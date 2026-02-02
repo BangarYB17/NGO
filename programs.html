@@ -1,11 +1,410 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Programs</title>
+    <link rel="stylesheet" href="css/ngo.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        .Community_Outreach{
+            width: 300px;
+            height: 300px;
+        }
+    </style>
 </head>
-<body>
-    <h1>This is program page</h1>
+
+<body class="ngo-bg">
+    <!-- Header Section Start -->
+    <header>
+        <section>
+            <nav class="navbar navbar-expand-md bg-orange " data-bs-theme="light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="/images/logo.png" alt="Logo" width="50" height="24"
+                            class="d-inline-block align-text-top img-fluid">
+                        <!-- Sahyog Foundation -->
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item ">
+                                <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hover active  bg-warning  shadow text-dark rounded "
+                                    href="programs.html">Programs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="impacts.html">Impacts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="get_involved.html">Get Involved</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Gallery
+                                </a>
+                                <ul class="dropdown-menu bg-warning border border-white">
+                                    <li><a class="dropdown-item text-dark" href="events.html">Events</a></li>
+                                    <li><a class="dropdown-item text-dark border-top border-white"
+                                            href="stories.html">Stories</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact Us</a>
+                            </li>
+                        </ul>
+
+                        <button type="button" class="btn btn_shadow me-4 btn-warning" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Donate
+                        </button>
+                    </div>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- main function start -->
+    <main>
+        <!-- Our Key Initiatives start -->
+        <section class="mt-1">
+            <div class="container mt-3">
+                <div class="row">
+                    <h1>Our Key Initiatives</h1>
+                    <div class="col-md-7 fs-5 lh-lg p-3">
+                        Our programs focus on improving lives through education, health support, community development,
+                        and empowerment initiatives. We work closely with local communities to identify their needs and
+                        provide meaningful support. Through these programs, we aim to create positive change, promote
+                        self-reliance, and ensure long-term social impact for children, women, and families.
+                    </div>
+                    <div class="col-md-5">
+                        <img src="images/our program.png" alt="Program" class="img-fluid rounded about_shadow mb-3">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Our Key Initiatives end -->
+
+
+        <!-- program section start -->
+        <section class="border-top border-white">
+            <div class="container mt-5 mb-5">
+                <div class="row">
+                    <h2 class="mb-4">Programs</h2>
+                    <div class="col-md-3 mb-5">
+                        <div class="card about_shadow">
+                            <img src="images/education.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5>Education Support</h5>
+                                <p class="card-text">Providing quality education and guidance to underprivileged
+                                    children for a brighter, hopeful future.</p>
+
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn_shadow me-4 btn-warning" data-bs-toggle="modal"
+                                    data-bs-target="#education">
+                                    Read More
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-5">
+                        <div class="card about_shadow">
+                            <img src="images/women_empowerment.jpg" class="card-img-top " alt="...">
+                            <div class="card-body">
+                                <h5>Women Empowerment</h5>
+                                <p class="card-text">Empowering women through skills, awareness, and self-reliance for a
+                                    confident future ahead.
+                                </p>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-warning btn_shadow" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    Read more
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-5">
+                        <div class="card about_shadow">
+                            <img src="images/skill.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5>Skill Development</h5>
+                                <p class="card-text ">We provides Skill training that enables employment,
+                                    confidence, and independence in communities.</p>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-warning btn_shadow" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    Read more
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-5">
+                        <div class="card about_shadow">
+                            <img src="images/youth.jpg" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <h5>Youth Engagement</h5>
+                                <p class="card-text">We engage youth through leadership and community programs to
+                                    inspire positive change.</p>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-warning btn_shadow" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    Read more
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-5">
+                        <div class="card about_shadow">
+                            <img src="images/Health and wellness.avif" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <h5>Health and wellness </h5>
+                                <p class="card-text">We support health and wellness by providing access to basic
+                                    healthcare services, preventive care, and health awareness programs for communities
+                                    in need..</p>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-warning btn_shadow" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    Read more
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-5">
+                        <div class="card about_shadow">
+                            <img src="images/Envionmental awareness.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body ">
+                                <h5>Environmental Awareness</h5>
+                                <p class="card-text">We promote environmental awareness through education and community initiatives to encourage sustainable and eco-friendly living. We raise environmental awareness for future.</p>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-warning btn_shadow" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    Read more
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-5">
+                        <div class="card about_shadow">
+                            <img src="images/Community Outreach.png" class="card-img-top Community_Outreach" alt="...">
+                            <div class="card-body ">
+                                <h5>Community Outreach </h5>
+                                <p class="card-text">We promote environmental awareness through education and community initiatives to encourage sustainable and eco-friendly living. We raise environmental awareness for future.</p>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-warning btn_shadow" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    Read more
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-5">
+                        <div class="card about_shadow">
+                            <img src="images/Disaster Relief and Support.jfif" class="card-img-top Community_Outreach" alt="...">
+                            <div class="card-body ">
+                                <h5>Disaster Relief and Support</h5>
+                                <p class="card-text">We promote environmental awareness through education and community initiatives to encourage sustainable and eco-friendly living. We raise environmental awareness for future.</p>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-warning btn_shadow" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    Read more
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- program section end -->
+
+    </main>
+
+    <!-- Education Support Modal -->
+    <div class="modal fade" id="education" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="education">Education Support Program</h1>
+                    <button type="button" class="btn-close btn_shadow me-4 btn-warning" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- program overview secction start -->
+                    <div>
+                        <h5>Program Overview</h5>
+                        <p>Our Education Support Program is dedicated to helping underprivileged children and youth gain
+                            access to quality education. We focus on reducing learning gaps and empowering students to
+                            build a brighter future through knowledge and skills.</p>
+                    </div>
+                    <!-- program overview secction end -->
+
+                    <!-- Objectives section start -->
+                    <div>
+                        <h5>Objectives</h5>
+                        <ul>
+                            <li>Ensure access to basic and quality education</li>
+                            <li>Reduce school dropout rates</li>
+                            <li>Support students from economically weaker backgrounds</li>
+                            <li>Encourage lifelong learning</li>
+                        </ul>
+                    </div>
+                    <!-- Objectives section end -->
+
+                    <!-- Key Activities section start -->
+                    <div>
+                        <h5>Key Activities</h5>
+                        <ul>
+                            <li>Distribution of books, uniforms, and learning materials</li>
+                            <li>Free tutoring and mentoring sessions</li>
+                            <li>Scholarship and financial assistance for education</li>
+                            <li>Career guidance and skill-oriented workshops</li>
+                        </ul>
+                    </div>
+                     <!-- Key Activities section end -->
+
+                    <!-- Who We Support section start -->
+                    <div>
+                        <h5>Who We Support</h5>
+                        <ul>
+                            <li>Underprivileged school-going children</li>
+                            <li>Students from rural and low-income communities</li>
+                            <li>First-generation learners</li>
+                        </ul>
+                    </div>
+                    <!-- Who We Support section end -->
+
+                    <!-- Impact section start -->
+                    <div>
+                        <h5>Impact</h5>
+                        <ul>
+                            <li>Improved academic performance and attendance</li>
+                            <li>Increased confidence and motivation among students</li>
+                            <li>Stronger foundation for higher education and careers</li>
+                        </ul>
+                    </div>
+                    <!-- Impact section end -->
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn_shadow me-4 btn-warning" data-bs-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn_shadow me-4 btn-warning">Save changes</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section Start -->
+    <footer>
+        <!-- Quick Links Start -->
+        <section class="bg-orange text-white d-none d-md-block border-top border-white">
+            <div class="container p-3">
+                <div class="row">
+                    <div class="col-md-3 text-dark">
+                        <h6>About Us</h6>
+                        <a class="navbar-brand" href="#">
+                            <img src="/images/logo.png" alt="Logo" width="40" height="54"
+                                class="d-inline-block align-text-top img-fluid">
+                            Sahyog Foundation
+                        </a>
+
+                        <p class="lh-lg">
+                            Sahyog Foundation is a non-profit organization working towards community development through
+                            education, healthcare support, and social welfare initiatives. We believe in collective
+                            action to create lasting and meaningful change in society.
+                        </p>
+                        <!-- <div class="col-md-12 fs-3"> -->
+
+
+                    </div>
+                    <div class="col-md-3">
+                        <h6 class="text-dark">Quick Links</h6>
+                        <ul class="lh-lg list-unstyled ">
+                            <li><a href="index.html" class="text-decoration-dark text-dark">Home</a></li>
+                            <li><a href="about.html" class="text-decoration-dark text-dark">About Us</a></li>
+                            <li><a href="programs.html" class="text-decoration-dark text-dark">Programs</a></li>
+                            <li><a href="impacts.html" class="text-decoration-dark text-dark">Impact</a></li>
+                            <li><a href="get_involved.html" class="text-decoration-dark text-dark">Get Involved</a></li>
+                            <li><a href="stories.html" class="text-decoration-dark text-dark">Stories</a></li>
+                            <li><a href="events.html" class="text-decoration-dark text-dark">Events</a></li>
+                            <li><a href="donate.html" class="text-decoration-dark text-dark">Donate</a></li>
+                            <li><a href="contact.html" class="text-decoration-dark text-dark">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h6 class="text-dark">Programs</h6>
+                        <ul class="lh-lg list-unstyled ">
+                            <li><a href="#" class="text-decoration-dark text-dark">Education Support</a></li>
+                            <li><a href="#" class="text-decoration-dark text-dark">Health & Wellness</a></li>
+                            <li><a href="#" class="text-decoration-dark text-dark">Skill Development</a></li>
+                            <li><a href="#" class="text-decoration-dark text-dark">Women Empowerment</a></li>
+                            <li><a href="#" class="text-decoration-dark text-dark">Community Outreach</a></li>
+                            <li><a href="#" class="text-decoration-dark text-dark">Youth Engagement</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 text-dark">
+                        <h6>Contact Us</h6>
+                        <p>Sahyog Foundation (Socio-Cultural-Educational Organisation)</p>
+                        <p><i class="bi bi-pin-map-fill text-danger"></i> Address:<br>2, Bhagat C.H.S., Plot No. 417/B,
+                            14th Road,
+                            Bandra (W), Mumbai - 400050, India</p>
+                        <p><i class="bi bi-envelope-fill text-danger"></i> Email : Sahyogfoundation@NGO.com</p>
+                        <p><i class="bi bi-telephone-outbound-fill text-danger"></i> Call:+91-22-2600 8629</p>
+
+                        <p>Follow Us On:
+                        <p>
+                        <div class="icon_size">
+                            <a><i class="bi bi-instagram "></i></a>
+                            <a><i class="bi bi-facebook"></i></a>
+                            <a><i class="bi bi-twitter-x"></i></a>
+                            <a><i class="bi bi-youtube"></i></a>
+                            <a><i class="bi bi-whatsapp"></i></a>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <!-- Quick Links End -->
+
+        <!-- Copyright Section Start -->
+        <section>
+            <div class="container-fluid text-center pt-1 pb-1 bg-orange border-top border-dark text-dark">
+                <p>&#169;2026 Sahyog Foundation | All Rights Reserved</p>
+            </div>
+        </section>
+        <!-- Copyright Section Start -->
+
+    </footer>
+    <!-- Footer Section End -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
