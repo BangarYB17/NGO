@@ -3,6 +3,9 @@
     overflow-x: hidden;
     overflow-y: auto;
 }
+.logo_img{
+    filter:drop-shadow( 0px 0px 12px rgb(234, 233, 228));
+}
 .bg-orange{
     background-color: #69bf8d;
 }
