@@ -5,20 +5,25 @@ html {
     overflow-y: auto;
 }
 
-.logo_img {
-    filter: drop-shadow(0px 0px 12px rgb(234, 233, 228));
+/* .logo_img {
+    filter: drop-shadow(0px 0px 12px rgb(75, 75, 73));
+} */
+.ngo-bg {
+    background-color: rgb(232, 232, 228);
 }
-
 .bg-orange {
-    background-color: #69bf8d;
+    background-color: rgb(255, 255, 255);
 }
-
 .navbar .nav-link:hover {
-    color: rgb(245, 245, 248);
+    color: rgb(12, 12, 142);
+    border-bottom:2px solid rgb(9, 9, 88);
     font-size: 18px;
     /* text-decoration: underline; */
 }
-
+.active:hover{
+    border-bottom: none !important;
+    font-size: inherit !important;
+}
 .icon_size a {
     font-size: 30px;
     margin-left: 20px;
@@ -60,14 +65,9 @@ html {
 }
 
 .slider-img {
-    height: 500px;
+    height: 600px;
     object-fit: auto;
 }
-
-.ngo-bg {
-    background-color: #e4d8d0;
-}
-
 .about_shadow {
     box-shadow: 9px 9px 11px rgb(80, 77, 77);
 }
@@ -110,9 +110,9 @@ html {
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
 }
 
-.mission-vision-section {
+/* .mission-vision-section {
     background-color: #e4d8d0;
-}
+} */
 
 .icon-box {
     background: #fff;
