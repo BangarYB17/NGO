@@ -1,67 +1,124 @@
-body,html{
-    width:100%;
+.body,
+html {
+    width: 100%;
     overflow-x: hidden;
+    overflow-y: auto;
 }
-.bg-orange{
-    background-color: #69bf8d;
+
+/* .logo_img {
+    filter: drop-shadow(0px 0px 12px rgb(75, 75, 73));
+} */
+.ngo-bg {
+    background-color: rgb(232, 232, 228);
 }
-.navbar .nav-link:hover{
-    color:rgb(245, 245, 248);
+.bg-orange {
+    background-color: rgb(255, 255, 255);
+}
+.navbar .nav-link:hover {
+    color: rgb(12, 12, 142);
+    border-bottom:2px solid rgb(9, 9, 88);
     font-size: 18px;
     /* text-decoration: underline; */
 }
-
-.icon_size a{
+.active:hover{
+    border-bottom: none !important;
+    font-size: inherit !important;
+}
+.icon_size a {
     font-size: 30px;
     margin-left: 20px;
 }
-.bi-instagram:hover{
-    color:red;
+
+.bi-instagram:hover {
+    color: red;
     text-shadow: 7px 7px 7px rgb(4, 0, 0);
 }
-.bi-facebook:hover{
-    color:rgb(25, 0, 255);
+
+.bi-facebook:hover {
+    color: rgb(25, 0, 255);
     text-shadow: 7px 7px 7px rgb(4, 0, 0);
 }
-.bi-twitter-x:hover{
-    color:rgb(1, 0, 4);
+
+.bi-twitter-x:hover {
+    color: rgb(1, 0, 4);
     text-shadow: 7px 7px 7px rgb(17, 10, 10);
 }
 
-.bi-youtube:hover{
-    color:rgb(228, 28, 14);
-    text-shadow: 7px 7px 7px rgb(4, 0, 0);
-}
-.bi-whatsapp:hover{
-    color:rgb(17, 241, 36);
+.bi-youtube:hover {
+    color: rgb(228, 28, 14);
     text-shadow: 7px 7px 7px rgb(4, 0, 0);
 }
 
-.btn_shadow{
-    box-shadow:7px 7px 15px rgb(25, 25, 25);
+.bi-whatsapp:hover {
+    color: rgb(17, 241, 36);
+    text-shadow: 7px 7px 7px rgb(4, 0, 0);
 }
-.btn:hover{
-    background-color: rgb(252, 255, 251) !important;
-    border:none !important;
+
+.btn_shadow {
+    box-shadow: 5px 5px 15px rgb(29, 27, 27);
+}
+
+.btn:hover {
+    background-color: rgb(38, 7, 88) !important;
+    color:white !important;
+    border:none;
     transform: translateY(-4px);
 }
-.slider-img{
-   height: 500px;
-   object-fit: auto;
-} 
 
-.ngo-bg {
-  background-color: #e4d8d0;
+.slider-img {
+    height: 600px;
+    object-fit: auto;
 }
-.about_shadow{
+.about_shadow {
     box-shadow: 9px 9px 11px rgb(80, 77, 77);
 }
-.about_shadow:hover{
+
+.about_shadow:hover {
     transform: translateY(-10px);
     transform: scale(1.12);
 }
+
 /* Story pages */
-.back-video{
+.back-video {
     width: 100%;
     height: auto;
+}
+
+/* contact us */
+.banner_img {
+    width: 100% !important;
+    height: 500px !important;
+    object-fit: auto;
+}
+
+.contact_text {
+    margin-bottom: 200px;
+}
+
+.Contact_card{
+    box-shadow: 0px 0px 7px rgb(95, 92, 92);
+}
+
+
+/* About pages */
+.container {
+    padding: 70px 0;
+}
+
+.stats-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+/* .mission-vision-section {
+    background-color: #e4d8d0;
+} */
+
+.icon-box {
+    background: #fff;
+    border-radius: 14px;
+    padding: 30px 20px;
+    height: 100%;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
 }
