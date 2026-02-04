@@ -107,7 +107,8 @@ html {
 .stats-card {
     background: #fff;
     border-radius: 12px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+    /* box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05); */
+    box-shadow: 0px 0px 7px rgb(95, 92, 92);
 }
 
 /* .mission-vision-section {
@@ -119,5 +120,5 @@ html {
     border-radius: 14px;
     padding: 30px 20px;
     height: 100%;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 0px 7px rgb(95, 92, 92);
 }
