@@ -65,3 +65,11 @@ body,html{
     width: 100%;
     height: auto;
 }
+h4{
+    text-align: center;
+    background-color: gray;
+}
+.heading{
+    text-align: center;
+    color: black;
+}
