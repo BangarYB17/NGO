@@ -9,10 +9,10 @@ html {
     filter: drop-shadow(0px 0px 12px rgb(75, 75, 73));
 } */
 .ngo-bg {
-    background-color: #e4e4e9;
+    background-color: #eef3f3;
 }
 .bg-orange{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(232, 227, 175);
 }
 .navbar .nav-link:hover {
     color: rgb(11, 11, 117);
@@ -27,6 +27,7 @@ html {
 .icon_size a {
     font-size: 30px;
     margin-left: 20px;
+    color:#111827;
 }
 
 .bi-instagram:hover {
