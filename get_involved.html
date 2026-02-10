@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GetInvolved</title>
+    <link rel="stylesheet" href="css/ngo.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body class="ngo-bg">
+    <!-- Header Section Start -->
+    <header>
+        <section>
+            <nav class="navbar navbar-expand-md bg-orange fixed-top" data-bs-theme="light">
+                <div class="container-fluid ">
+                    <a class="navbar-brand" href="#">
+                        <img src="/images/logo.png" alt="Logo" width="100" height="40"
+                            class="d-inline-block align-text-top img-fluid logo_img">
+                        <!-- Sahyog Foundation  -->
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                            <li class="nav-item ">
+                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hover" href="programs.html">Programs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="impacts.html">Impacts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active bg-warning  shadow text-dark rounded active"
+                                    href="get_involved.html">Get Involved</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Gallery
+                                </a>
+                                <ul class="dropdown-menu bg-warning border border-white">
+                                    <li><a class="dropdown-item text-dark" href="events.html">Events</a></li>
+                                    <li><a class="dropdown-item text-dark border-top border-white"
+                                            href="stories.html">Stories</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact Us</a>
+                            </li>
+                        </ul>
+
+                        <button type="button" class="btn btn_shadow me-4 btn-warning" data-bs-toggle="modal"
+                            data-bs-target="#donatemodal">
+                            Donate
+                        </button>
+                    </div>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <!-- Header Section end -->
+
+    <!-- Main Section Start -->
+    <main>
+        <section class="mt-3">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/Get_involved2.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="text-warning">Get Involved</h1>
+                            <p class="fs-3 text-white">Be the change you want to see in the world</p>
+
+                            <button type="button" class="btn btn_shadow me-4 btn-warning" data-bs-toggle="modal"
+                                data-bs-target="#donatemodal">
+                                Become a Volunteer
+                            </button>
+
+                            <button type="button" class="btn btn_shadow me-4 btn-warning" data-bs-toggle="modal"
+                                data-bs-target="">
+                                Donate Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="border-top border-white">
+            <div class="container">
+                <h2 class="text-center fw-bold mb-2">Ways to Get Involved</h2>
+                <p class="text-center text-muted mb-5">
+                    Make a real difference by getting involved in our initiatives.
+                </p>
+
+                <div class="row g-4">
+                    <!-- Volunteer -->
+                    <div class="col-md-4">
+                        <div class="card involvement-card text-center h-100">
+                            <div class="card-body">
+                                <h5 class="fw-bold">Volunteer With Us</h5>
+                                <p class="text-muted">
+                                    Help in events, programs & field work.
+                                </p>
+                                <ul class="list-unstyled small">
+
+                                    <li><i class="bi bi-check-lg text-primary"></i> Open for students</li>
+                                    <li><i class="bi bi-check-lg text-primary"></i> Working professionals</li>
+                                </ul>
+                                <button type="button" class="btn btn_shadow me-4 btn-warning justify-content"
+                                    data-bs-toggle="modal" data-bs-target="#volunteerModal">
+                                    Join as Volunteer
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Donate -->
+                    <div class="col-md-4">
+                        <div class="card involvement-card text-center h-100">
+                            <div class="card-body">
+                                <h5 class="fw-bold">Donate & Support</h5>
+                                <p class="text-muted">
+                                    Support education, health & environment programs.
+                                </p>
+                                <p class="small">One-time or monthly donation</p>
+                                <button type="button" class="btn btn_shadow me-4 btn-warning" data-bs-toggle="modal"
+                                    data-bs-target="#donatemodal">
+                                    Donet Now
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Partner -->
+                    <div class="col-md-4">
+                        <div class="card involvement-card text-center h-100">
+                            <div class="card-body">
+                                <h5 class="fw-bold">Partner With Us</h5>
+                                <ul class="list-unstyled small text-muted">
+                                    <li><i class="bi bi-check-lg text-primary"></i> CSR partnerships</li>
+                                    <li><i class="bi bi-check-lg text-primary"></i> NGO collaborations</li>
+                                    <li><i class="bi bi-check-lg text-primary"></i> Corporate support</li>
+                                </ul>
+                                <button type="button" class="btn btn_shadow me-4 btn-warning" data-bs-toggle="modal"
+                                    data-bs-target="#donatemodal">
+                                    Become a Partner
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="border-top border-white">
+            <div class="container">
+                <div class="row">
+                    <h1 class="text-center">How It Work</h1>
+                    <p class="text-center">Get started in 4 easy step</p>
+                    <div class="text-center">
+                        <div class="row g-4">
+                            <div class="col-md-3">
+                                <div class="card involvement-card text-center h-100">
+                                    <div class="card-body">
+                                        <h5 class="fw-bold">Step 1</h5>
+                                        <p class="text-muted">
+                                            Choose how you want to get involved
+                                            <i class="bi bi-arrow-right-circle-fill fs-3 text-primary"></i>
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card involvement-card text-center h-100">
+                                    <div class="card-body">
+                                        <h5 class="fw-bold">Step 2</h5>
+                                        <p class="text-muted">
+                                            Fill a short form<br>
+                                            <i class="bi bi-arrow-right-circle-fill fs-3 text-primary"></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card involvement-card text-center h-100">
+                                    <div class="card-body">
+                                        <h5 class="fw-bold">Step 3</h5>
+                                        <p class="text-muted">
+                                            Our team contact you <br>
+                                            <i class="bi bi-arrow-right-circle-fill fs-3 text-primary"></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card involvement-card text-center h-100">
+                                    <div class="card-body">
+                                        <h5 class="fw-bold">Step 4</h5>
+                                        <p class="text-muted">
+                                            Start making an impact <br>
+                                            <i class="bi bi-arrow-right-circle-fill fs-3 text-primary"></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn_shadow me-4 btn-warning mt-4" data-bs-toggle="modal"
+                            data-bs-target="#volunteerModal">
+                            Join us Today
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="border-top border-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h2>Volunteering</h2>
+                        <p class="fs-5 lh-lg mt-4">We like to organize memorable events. We intend not only to raise
+                            funds, but
+                            we also want people to fully enjoy our events. We work hard to prepare and hold each event.
+                            If you
+                            are a person who likes to be immediately involved, then voluntary cooperation with us is an
+                            excellent choice! We will be glad to see you on board!</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/volunteer.avif" class="img-fluid rounded about_shadow" alt="" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="border-top border-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h2>Partnership</h2>
+                        <p class="fs-5 lh-lg mt-4">We are always looking for new ways to interact with people and
+                            organizations.
+                            If you know someone who could benefit from a PAG NGO partnership, invite them to contact us
+                            and tell
+                            us about their great work! Awareness is a major step towards gaining more support.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/partnership.avif" class="img-fluid rounded about_shadow" alt="" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="border-top border-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h2>Donations</h2>
+                        <p class="fs-5 lh-lg mt-4">PAG NGO collects funds for many existing and future projects. And
+                            today, with
+                            the full-scale military invasion of the Russian invaders, Ukraine is on the verge of a
+                            cultural and
+                            humanitarian catastrophe. When we have additional capital, we will have more freedom to
+                            execute our
+                            programs in the best way possible. Thank you for supporting them with your financial
+                            contributions.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/Donation.avif" class="img-fluid rounded about_shadow" alt="" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="border-top border-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h2>Corporate sponsorship</h2>
+                        <p class="fs-5 lh-lg mt-4">Corporate sponsorship
+                            Our sponsors make our events or projects what they are. We couldn't do what we do without
+                            them! If
+                            you would like to sponsor one of our future projects, please contact us. We will inform you
+                            about
+                            all the details.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/sponsaredship.jpg" class="img-fluid rounded about_shadow" alt="" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Model Start -->
+        <div class="modal fade" id="volunteerModal" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h5 class="modal-title">Volunteer Form</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <form>
+
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <label class="form-label">Full Name</label>
+                                    <input type="text" class="form-control" placeholder="Enter your name">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Email Address</label>
+                                    <input type="email" class="form-control" placeholder="Enter email">
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <label class="form-label">Phone Number</label>
+                                    <input type="tel" class="form-control" placeholder="Enter phone number">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Age</label>
+                                    <input type="number" class="form-control" placeholder="Your age">
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Area of Interest</label>
+                                <select class="form-select">
+                                    <option selected>Select an option</option>
+                                    <option>Education</option>
+                                    <option>Healthcare</option>
+                                    <option>Environment</option>
+                                    <option>Community Support</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Availability</label>
+                                <select class="form-select">
+                                    <option>Weekdays</option>
+                                    <option>Weekends</option>
+                                    <option>Flexible</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Why do you want to volunteer?</label>
+                                <textarea class="form-control" rows="3" placeholder="Write a short message"></textarea>
+                            </div>
+
+                        </form>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button class="btn btn-success">Submit</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Model End -->
+    </main>
+    <!-- Main Section End -->
+
+
+
+
+
+    <!-- Footer Section Start -->
+    <footer>
+        <!-- Quick Links Start -->
+        <section class="bg-orange text-white d-none d-md-block border-top border-white">
+            <div class="container p-3">
+                <div class="row">
+                    <div class="col-md-4 text-dark">
+                        <h5>About Us</h5>
+                        <a class="navbar-brand" href="#">
+                            <img src="/images/logo.png" alt="Logo" width="100" height="40"
+                                class="d-inline-block align-text-top logo_img">
+                            <!-- Sahyog Foundation -->
+                        </a>
+                        <h5 class="text-danger border-bottom border-danger p-2 ">Working together for a better tomorrow
+                        </h5>
+                        <div class="container-fluid  rounded shadow-lg ps-3 ">
+                            <p class="lh-lg">
+                                "Sahyog Foundation is a non-profit organization working towards community development
+                                through
+                                education, healthcare support, and social welfare initiatives. We believe in collective
+                                action to create lasting and meaningful change in society".
+                            </p>
+                        </div>
+
+                        <!-- <div class="col-md-12 fs-3"> -->
+                    </div>
+                    <div class="col-md-2">
+                        <h5 class="text-dark">Quick Links</h5>
+                        <ul class="lh-lg list-unstyled ">
+                            <li><a href="index.html" class="text-decoration-none text-dark">Home</a></li>
+                            <li><a href="about.html" class="text-decoration-none text-dark">About Us</a></li>
+                            <li><a href="programs.html" class="text-decoration-none text-dark">Programs</a></li>
+                            <li><a href="impacts.html" class="text-decoration-none text-dark">Impact</a></li>
+                            <li><a href="get_involved.html" class="text-decoration-none text-dark">Get Involved</a></li>
+                            <li><a href="stories.html" class="text-decoration-none text-dark">Stories</a></li>
+                            <li><a href="events.html" class="text-decoration-none text-dark">Events</a></li>
+                            <!-- <li><a href="donate.html" class="text-decoration-none text-dark">Donate</a></li> -->
+                            <li><a href="contact.html" class="text-decoration-none text-dark">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <h5 class="text-dark">Programs</h5>
+                        <ul class="lh-lg list-unstyled ">
+                            <li><a href="#" class="text-decoration-none text-dark">Education Support</a></li>
+                            <li><a href="#" class="text-decoration-none text-dark">Health & Wellness</a></li>
+                            <li><a href="#" class="text-decoration-none text-dark">Skill Development</a></li>
+                            <li><a href="#" class="text-decoration-none text-dark">Women Empowerment</a></li>
+                            <li><a href="#" class="text-decoration-none text-dark">Community Outreach</a></li>
+                            <li><a href="#" class="text-decoration-none text-dark">Youth Engagement</a></li>
+                            <li><a href="#" class="text-decoration-none text-dark">Disaster Relief and Support</a></li>
+                            <li><a href="#" class="text-decoration-none text-dark">Environmental Awareness</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 text-dark">
+                        <h5>Contact Us</h5>
+                        <p>Sahyog Foundation (Socio-Cultural-Educational Organisation)</p>
+                        <p><i class="bi bi-pin-map-fill text-danger"></i> Address:<br>2, Bhagat C.H.S., Plot No. 417/B,
+                            14th Road,
+                            Bandra (W), Mumbai - 400050, India</p>
+                        <p><i class="bi bi-envelope-fill text-primary"></i> Email : Sahyogfoundation@NGO.com</p>
+                        <p><i class="bi bi-telephone-outbound-fill text-success"></i> Call:+91-22-2600 8629</p>
+
+                        <p>Follow Us On:
+                        <p>
+                        <div class="icon_size">
+                            <a><i class="bi bi-instagram "></i></a>
+                            <a><i class="bi bi-facebook"></i></a>
+                            <a><i class="bi bi-twitter-x"></i></a>
+                            <a><i class="bi bi-youtube"></i></a>
+                            <a><i class="bi bi-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Quick Links End -->
+
+        <!-- Copyright Section Start -->
+        <section>
+            <div class="container-fluid text-center pt-1 pb-1 bg-orange border-top border-secondary text-dark">
+                <p>&#169;
+                    <script>document.write(new Date().getFullYear());</script> Sahyog Foundation | All Rights Reserved
+                </p>
+            </div>
+        </section>
+        <!-- Copyright Section Start -->
+    </footer>
+    <!-- Footer Section End -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
