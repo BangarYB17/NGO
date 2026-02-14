@@ -84,17 +84,11 @@ html {
 }
 .had{
     text-align: center;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
     font-size: 36px;
     font-weight: 700;
-    color: #2c3e50;
+    color:black;
     margin: 40px 0 20px;
     position: relative;
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
     text-transform: uppercase;
 }
 .heading-box {
@@ -124,7 +118,6 @@ html {
 .image:hover {
   box-shadow: 0 8px 15px black;
 }
-
 
 /* contact us */
 .banner_img {
