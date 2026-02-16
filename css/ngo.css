@@ -3,6 +3,7 @@ html {
     width: 100%;
     overflow-x: hidden;
     overflow-y: auto;
+    box-sizing: border-box;
 }
 
 /* .logo_img {
@@ -56,7 +57,7 @@ html {
 }
 
 .btn_shadow {
-    box-shadow: 5px 5px 15px rgb(29, 27, 27);
+    box-shadow: 5px 5px 15px rgb(137, 134, 134);
 }
 
 .btn:hover {
@@ -71,7 +72,7 @@ html {
     object-fit: auto;
 }
 .about_shadow {
-    box-shadow: 9px 9px 11px rgb(80, 77, 77);
+    box-shadow: 9px 9px 11px rgb(170, 163, 163);
 }
 
 .about_shadow:hover {
@@ -85,6 +86,12 @@ html {
 }
 .had{
     text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    color:black;
+    margin: 40px 0 20px;
+    position: relative;
+    text-transform: uppercase;
 }
 .heading-box {
   font-family: 'Segoe UI', sans-serif;
@@ -98,20 +105,12 @@ html {
   border-radius: 6px;
   text-align: center;
 }
-
-.styled-para {
-  font-family: 'Segoe UI', Arial, sans-serif;
-  font-size: 18px;
-  line-height: 1.8;
-  color: #333;
-  background: #f9f9ff;
-  padding: 20px 25px;
-  border-left: 5px solid #4f46e5;
-  border-radius: 8px;
-  max-width: 700px;
-  margin: 20px auto;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-} 
+.styled-para{
+    font-size: 22px;
+    line-height: 1.7;
+    /* color: #555; */
+    text-align: justify;
+}
 .image {
   box-shadow: 0 2px 5px gray;
   transition: 0.3s;
@@ -121,7 +120,6 @@ html {
 .image:hover {
   box-shadow: 0 8px 15px black;
 }
-
 
 /* contact us */
 .banner_img {
@@ -141,7 +139,7 @@ html {
 
 /* About pages */
 .container {
-    padding: 70px 0;
+    padding: 40px 0;
 }
 
 .stats-card {
@@ -161,4 +159,8 @@ html {
     padding: 30px 20px;
     height: 100%;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.subtitle{
+    text-shadow: 5px 5px 5px black;
 }
