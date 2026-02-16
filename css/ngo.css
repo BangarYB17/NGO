@@ -3,16 +3,17 @@ html {
     width: 100%;
     overflow-x: hidden;
     overflow-y: auto;
+    box-sizing: border-box;
 }
 
 /* .logo_img {
     filter: drop-shadow(0px 0px 12px rgb(75, 75, 73));
 } */
 .ngo-bg {
-    background-color: rgb(198, 194, 187);
+    background-color: #eef3f3;
 }
 .bg-orange{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(232, 227, 175);
 }
 .navbar .nav-link:hover {
     color: rgb(11, 11, 117);
@@ -27,6 +28,7 @@ html {
 .icon_size a {
     font-size: 30px;
     margin-left: 20px;
+    color:#111827;
 }
 
 .bi-instagram:hover {
@@ -55,7 +57,7 @@ html {
 }
 
 .btn_shadow {
-    box-shadow: 5px 5px 15px rgb(29, 27, 27);
+    box-shadow: 5px 5px 15px rgb(137, 134, 134);
 }
 
 .btn:hover {
@@ -70,7 +72,7 @@ html {
     object-fit: auto;
 }
 .about_shadow {
-    box-shadow: 9px 9px 11px rgb(80, 77, 77);
+    box-shadow: 9px 9px 11px rgb(170, 163, 163);
 }
 
 .about_shadow:hover {
@@ -137,7 +139,7 @@ html {
 
 /* About pages */
 .container {
-    padding: 70px 0;
+    padding: 40px 0;
 }
 
 .stats-card {
@@ -157,4 +159,8 @@ html {
     padding: 30px 20px;
     height: 100%;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.subtitle{
+    text-shadow: 5px 5px 5px black;
 }
