@@ -84,15 +84,7 @@ html {
     width: 100%;
     height: auto;
 }
-.had{
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    color:black;
-    margin: 40px 0 20px;
-    position: relative;
-    text-transform: uppercase;
-}
+
 .image:hover {
   box-shadow: 0 8px 15px black;
 }
